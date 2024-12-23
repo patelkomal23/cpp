@@ -1,8 +1,9 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main(){
+int main()
+{
     int n;
     cout << "Enter Value of n: ";
     cin >> n;
@@ -11,8 +12,10 @@ int main(){
 
     vector<vector<int>> v2(n, v1);
 
-    for (vector<int> elem : v2){
-        for(int e:elem){
+    for (vector<int> elem : v2)
+    {
+        for (int e : elem)
+        {
             cout << e << " ";
         }
         cout << endl;

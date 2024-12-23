@@ -2,52 +2,43 @@
 #include <vector>
 using namespace std;
 
-class Collection{
-vector<int> v;
-    public:
-    void addElement(int element){
-        v.push_back(element);
-        cout << "Element Added Successfully!!!" <<endl;
+class Collection
+{
+    vector<int> v;
 
+public:
+    void addElement(int element)
+    {
+        v.push_back(element);
+        cout << "Element Added Successfully!!!" << endl;
     }
-    void updateElement(int index, int element){
-        if(index>=0 && index<v.size()){
-            v[index]=element;
+    void updateElement(int index, int element)
+    {
+        if (index >= 0 && index < v.size())
+        {
+            v[index] = element;
             cout << "Element updated Successfully!!!" << endl;
         }
-        else{
+        else
+        {
             cout << "Error!!!" << endl;
         }
     }
-    void deleteElement(int index){
-        if(index>=0 && index <v.size()){
-            
+    void deleteElement(int index)
+    {
+        if (index >= 0 && index < v.size())
+        {
         }
     }
-    void getAllElement(){
-
+    void getAllElement()
+    {
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 int main()
 {
     int choice;
-  
+
     do
     {
         cout << "Press 1 for add an element" << endl;
