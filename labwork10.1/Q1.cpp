@@ -3,8 +3,6 @@ using namespace std;
 
 
 void div();//DECLARATION
-
-
 int main(){
     div();
 }

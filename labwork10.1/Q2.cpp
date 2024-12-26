@@ -1,16 +1,19 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-
-int cube(int n){
-    int result=n*n*n;
+int cube(int n)
+{
+    int result = n * n * n;
     return result;
 }
 
-int main(){
+
+
+int main()
+{
     int c;
-    cout<<"Enter any number for cube : ";
-    cin>>c;
+    cout << "Enter any number for cube : ";
+    cin >> c;
     cube(c);
-    cout<<"Cube is : "<<cube(c);
+    cout << "Cube is : " << cube(c);
 }
